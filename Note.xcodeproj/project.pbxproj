@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		753708D220E85ADE0084C364 /* SecretDoge.gif in Resources */ = {isa = PBXBuildFile; fileRef = 753708CF20E85ADE0084C364 /* SecretDoge.gif */; };
+		753708D320E85ADE0084C364 /* BeerDoge.gif in Resources */ = {isa = PBXBuildFile; fileRef = 753708D020E85ADE0084C364 /* BeerDoge.gif */; };
+		753708D420E85ADE0084C364 /* ChickenlegDoge.gif in Resources */ = {isa = PBXBuildFile; fileRef = 753708D120E85ADE0084C364 /* ChickenlegDoge.gif */; };
+		75C9C24820E30A0F001C1BA6 /* DancingDoge.gif in Resources */ = {isa = PBXBuildFile; fileRef = 75C9C24720E30A0E001C1BA6 /* DancingDoge.gif */; };
 		75D5780520E2407E00573647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5780420E2407E00573647 /* AppDelegate.swift */; };
 		75D5780720E2407E00573647 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5780620E2407E00573647 /* ViewController.swift */; };
 		75D5780A20E2407E00573647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D5780820E2407E00573647 /* Main.storyboard */; };
@@ -14,6 +18,11 @@
 		75D5780F20E2408100573647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D5780D20E2408100573647 /* LaunchScreen.storyboard */; };
 		75D5781A20E2408100573647 /* NoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5781920E2408100573647 /* NoteTests.swift */; };
 		75D5782520E2408100573647 /* NoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5782420E2408100573647 /* NoteUITests.swift */; };
+		75D5783E20E257FC00573647 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5783D20E257FC00573647 /* Record.swift */; };
+		75D5784020E25DC400573647 /* EditRecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5783F20E25DC400573647 /* EditRecordTableViewController.swift */; };
+		75D5784220E25DDC00573647 /* RecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5784120E25DDC00573647 /* RecordTableViewController.swift */; };
+		75D5784820E298CA00573647 /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5784720E298CA00573647 /* RecordTableViewCell.swift */; };
+		75D5788620E3017C00573647 /* UIImage+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5788520E3017C00573647 /* UIImage+GIF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		753708CF20E85ADE0084C364 /* SecretDoge.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = SecretDoge.gif; path = ../../../../Desktop/SecretDoge.gif; sourceTree = "<group>"; };
+		753708D020E85ADE0084C364 /* BeerDoge.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = BeerDoge.gif; path = ../../../../Desktop/BeerDoge.gif; sourceTree = "<group>"; };
+		753708D120E85ADE0084C364 /* ChickenlegDoge.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ChickenlegDoge.gif; path = ../../../../Desktop/ChickenlegDoge.gif; sourceTree = "<group>"; };
+		75C9C24720E30A0E001C1BA6 /* DancingDoge.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = DancingDoge.gif; path = ../../../../Desktop/DancingDoge.gif; sourceTree = "<group>"; };
 		75D5780120E2407E00573647 /* Note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Note.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D5780420E2407E00573647 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75D5780620E2407E00573647 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,11 @@
 		75D5782020E2408100573647 /* NoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D5782420E2408100573647 /* NoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteUITests.swift; sourceTree = "<group>"; };
 		75D5782620E2408100573647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D5783D20E257FC00573647 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		75D5783F20E25DC400573647 /* EditRecordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecordTableViewController.swift; sourceTree = "<group>"; };
+		75D5784120E25DDC00573647 /* RecordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewController.swift; sourceTree = "<group>"; };
+		75D5784720E298CA00573647 /* RecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
+		75D5788520E3017C00573647 /* UIImage+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+GIF.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +115,18 @@
 		75D5780320E2407E00573647 /* Note */ = {
 			isa = PBXGroup;
 			children = (
+				75C9C24720E30A0E001C1BA6 /* DancingDoge.gif */,
+				753708D020E85ADE0084C364 /* BeerDoge.gif */,
+				753708D120E85ADE0084C364 /* ChickenlegDoge.gif */,
+				753708CF20E85ADE0084C364 /* SecretDoge.gif */,
+				75D5788520E3017C00573647 /* UIImage+GIF.swift */,
 				75D5780420E2407E00573647 /* AppDelegate.swift */,
 				75D5780620E2407E00573647 /* ViewController.swift */,
 				75D5780820E2407E00573647 /* Main.storyboard */,
+				75D5784120E25DDC00573647 /* RecordTableViewController.swift */,
+				75D5784720E298CA00573647 /* RecordTableViewCell.swift */,
+				75D5783F20E25DC400573647 /* EditRecordTableViewController.swift */,
+				75D5783D20E257FC00573647 /* Record.swift */,
 				75D5780B20E2408100573647 /* Assets.xcassets */,
 				75D5780D20E2408100573647 /* LaunchScreen.storyboard */,
 				75D5781020E2408100573647 /* Info.plist */,
@@ -230,8 +257,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				75D5780F20E2408100573647 /* LaunchScreen.storyboard in Resources */,
+				753708D420E85ADE0084C364 /* ChickenlegDoge.gif in Resources */,
 				75D5780C20E2408100573647 /* Assets.xcassets in Resources */,
+				753708D220E85ADE0084C364 /* SecretDoge.gif in Resources */,
+				75C9C24820E30A0F001C1BA6 /* DancingDoge.gif in Resources */,
 				75D5780A20E2407E00573647 /* Main.storyboard in Resources */,
+				753708D320E85ADE0084C364 /* BeerDoge.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D5784020E25DC400573647 /* EditRecordTableViewController.swift in Sources */,
 				75D5780720E2407E00573647 /* ViewController.swift in Sources */,
+				75D5783E20E257FC00573647 /* Record.swift in Sources */,
+				75D5784220E25DDC00573647 /* RecordTableViewController.swift in Sources */,
+				75D5784820E298CA00573647 /* RecordTableViewCell.swift in Sources */,
+				75D5788620E3017C00573647 /* UIImage+GIF.swift in Sources */,
 				75D5780520E2407E00573647 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
